@@ -5,20 +5,25 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国_CF@, server: npdm.luluen.top, port: 443, type: vmess, uuid: 0b668d65-9a59-460b-887f-554ad204a05b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /luluen.top, yheaders: {Host: npm.luluen.top}}, udp: true}
-  - {name: 🇺🇸 美国_GC, server: 47.57.180.130, port: 443, type: vmess, uuid: b01fbf39-a384-4dc9-b1d57-4eb89a5387f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.luluen.top}}, udp: true}
-  - {name: 🇺🇸 美国_ntCF, seryver: 47.57.180.130, port: 443, type: vmess, uuid: 8dbe9222-523c-43tb4-8d12-862d272044f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rn.luluen.ml}}, udp: true}
-  - {name: 🇺🇸 美国_ntCF 2, server: 8.219.58.6y4, port: 443, type: vmess, uuid: 8dybe9222-523c-43b4-8d12-862d272044f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rn.luluen.ml}}, udp: true}
-  - {name: 🇺🇸 美国_ntCF 3, server: 8.219.2y08.69, port: 443, type: vmess, uuid: 8dbey9222-523c-43b4-8d12-862d272044f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rn.luluen.ml}}, udp: true}
-  - {name: 🇺🇸 美国_ntCF@, server: rn.luluen.ml, port: 443, type: vmess, uuid: 8dbye92y22-523c-43b4-8d12-862d272044f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, yws-opts: {ypath: /cfcdn2, heyaders: {Host: rn.luluen.ml}}, udp: true}
-  - {name: 🇺🇸 美国4837, server: zhilian2.luluen.top, port: 36969, type: vmess, uuid: b39y74d86-1a38-4073-f77e-8a6aae23fc4f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zhilian2.luluen.top, headers: {Host: zhilian2.luluen.top}}, udp: true}
-  - {name: RAK, server: zhilian3.luluen.top, port: 36969, type: vmess, uuid: 21f92f0b-6bay6-4e3c-bb34-17ee8372a8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zhilian3.luyluen.top, headers: {Host: zhilian3.luluen.top}}, udp: true}
-  - {name: 🇯🇵 日本, server: zhilian.hdada.top, port: 36969, type: vmess, uuid: f208139ya-32c1-47fc-81dd-0742069b01f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {ypath: /zhilian, headers: {Host: zhilian.hdada.top}}, udp: true}
-  - {name: 🇯🇵 日本_GC, server: 8.219.58.y64, port: 443, type: vmess, uuid: d209cdb3-95y29-4b09-fc7c-fbeb537c0fbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.hdada.top}}, udp: true}
-  - {name: 🇯🇵 日本_GC 2, server: 8.219.216.216, port: 443, type: vmess, uuid: d209cdb3y-9529-4b09-fc7c-fbeb537c0fbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.hdada.top}}, udp: true}
-  - {name: 🇯🇵 日本_GC 3, server: 8.219.208.69, port: 443, type: vmess, uuid: d209cdb3-95y29-4b09-fc7c-fbeb537c0fbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.hdada.top}}, udp: true}
-  - {name: 🇯🇵 日本_GC 4, server: 8.219.208.227, port: 443, type: vmess, uuid: d209cdb3-9529-4b09-fc7c-fbeby537c0fbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.hdada.top}}, udp: true}
-  - {name: 🇯🇵 日本_GC 5, server: 47.57.242.101, port: 443, type: vmess, uuid: d209cdb3-9529-4b09-fc7c-fbyeb537c0fbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /gccdn, heayders: {Host: gc.hdada.top}}, udp: true}
+  - {name: 🇺🇸 美国_CF@, server: npm.luluen.top, port: 443, type: vmess, uuid: 0b668d65-9a59-460b-887f-554ad204a05b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /luluen.top, headers: {Host: npm.luluen.top}}, udp: true}
+  - {name: 🇺🇸 美国_CF1, server: green1.hdada.top, port: 443, type: vmess, uuid: 0b668d65-9a59-460b-887f-554ad204a05b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /luluen.top, headers: {Host: npm.luluen.top}}, udp: true}
+  - {name: 🇺🇸 美国_CF2, server: green2.hdada.top, port: 443, type: vmess, uuid: 0b668d65-9a59-460b-887f-554ad204a05b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /luluen.top, headers: {Host: npm.luluen.top}}, udp: true}
+  - {name: 🇺🇸 美国_CF3, server: green3.hdada.top, port: 443, type: vmess, uuid: 0b668d65-9a59-460b-887f-554ad204a05b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /luluen.top, headers: {Host: npm.luluen.top}}, udp: true}
+  - {name: 🇺🇸 美国_CF4, server: green5.hdada.top, port: 443, type: vmess, uuid: 0b668d65-9a59-460b-887f-554ad204a05b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /luluen.top, headers: {Host: npm.luluen.top}}, udp: true}
+  - {name: 🇺🇸 美国_CF5, server: green4.hdada.top, port: 443, type: vmess, uuid: 0b668d65-9a59-460b-887f-554ad204a05b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /luluen.top, headers: {Host: npm.luluen.top}}, udp: true}
+  - {name: 🇺🇸 美国_GC1, server: green1.hdada.top, port: 443, type: vmess, uuid: b01fbf39-a384-4dc9-b157-4eb89a5387f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.luluen.top}}, udp: true}
+  - {name: 🇺🇸 美国_GC2, server: green2.hdada.top, port: 443, type: vmess, uuid: b01fbf39-a384-4dc9-b157-4eb89a5387f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.luluen.top}}, udp: true}
+  - {name: 🇺🇸 美国_GC3, server: green3.hdada.top, port: 443, type: vmess, uuid: b01fbf39-a384-4dc9-b157-4eb89a5387f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.luluen.top}}, udp: true}
+  - {name: 🇺🇸 美国_GC4, server: green4.hdada.top, port: 443, type: vmess, uuid: b01fbf39-a384-4dc9-b157-4eb89a5387f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.luluen.top}}, udp: true}
+  - {name: 🇺🇸 美国_GC5, server: green5.hdada.top, port: 443, type: vmess, uuid: b01fbf39-a384-4dc9-b157-4eb89a5387f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.luluen.top}}, udp: true}
+  - {name: 🇯🇵 日本, server: zhilian.hdada.top, port: 36969, type: vmess, uuid: f208139a-32c1-47fc-81dd-0742069b01f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zhilian, headers: {Host: zhilian.hdada.top}}, udp: true}
+  - {name: 🇯🇵 日本_GC1, server: green1.hdada.top, port: 443, type: vmess, uuid: d209cdb3-9529-4b09-fc7c-fbeb537c0fbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.hdada.top}}, udp: true}
+  - {name: 🇯🇵 日本_GC2, server: green2.hdada.top, port: 443, type: vmess, uuid: d209cdb3-9529-4b09-fc7c-fbeb537c0fbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.hdada.top}}, udp: true}
+  - {name: 🇯🇵 日本_GC3, server: green3.hdada.top, port: 443, type: vmess, uuid: d209cdb3-9529-4b09-fc7c-fbeb537c0fbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.hdada.top}}, udp: true}
+  - {name: 🇯🇵 日本_GC4, server: green4.hdada.top, port: 443, type: vmess, uuid: d209cdb3-9529-4b09-fc7c-fbeb537c0fbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.hdada.top}}, udp: true}
+  - {name: 🇯🇵 日本_GC5, server: green5.hdada.top, port: 443, type: vmess, uuid: d209cdb3-9529-4b09-fc7c-fbeb537c0fbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.hdada.top}}, udp: true}
+  - {name: RAK, server: zhilian3.luluen.top, port: 36969, type: vmess, uuid: 21f92f0b-6ba6-4e3c-bb34-17ee8372a8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zhilian3.luluen.top, headers: {Host: zhilian3.luluen.top}}, udp: true}
+  - {name: 4837, server: zhilian2.luluen.top, port: 36969, type: vmess, uuid: b3974d86-1a38-4073-f77e-8a6aae23fc4f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zhilian2.luluen.top, headers: {Host: zhilian2.luluen.top}}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -27,20 +32,27 @@ proxy-groups:
       - DIRECT
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - ⚖️ 负载均衡日本
+      - ⚖️ 负载均衡美国
       - 🇺🇸 美国_CF@
-      - 🇺🇸 美国_GC
-      - 🇺🇸 美国_ntCF
-      - 🇺🇸 美国_ntCF 2
-      - 🇺🇸 美国_ntCF 3
-      - 🇺🇸 美国_ntCF@
-      - 🇺🇸 美国4837
-      - RAK
+      - 🇺🇸 美国_CF1
+      - 🇺🇸 美国_CF2
+      - 🇺🇸 美国_CF3
+      - 🇺🇸 美国_CF4
+      - 🇺🇸 美国_CF5
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
+      - 🇺🇸 美国_GC4
+      - 🇺🇸 美国_GC5
       - 🇯🇵 日本
-      - 🇯🇵 日本_GC
-      - 🇯🇵 日本_GC 2
-      - 🇯🇵 日本_GC 3
-      - 🇯🇵 日本_GC 4
-      - 🇯🇵 日本_GC 5
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本_GC4
+      - 🇯🇵 日本_GC5
+      - RAK
+      - 4837
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -48,19 +60,24 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇺🇸 美国_CF@
-      - 🇺🇸 美国_GC
-      - 🇺🇸 美国_ntCF
-      - 🇺🇸 美国_ntCF 2
-      - 🇺🇸 美国_ntCF 3
-      - 🇺🇸 美国_ntCF@
-      - 🇺🇸 美国4837
-      - RAK
+      - 🇺🇸 美国_CF1
+      - 🇺🇸 美国_CF2
+      - 🇺🇸 美国_CF3
+      - 🇺🇸 美国_CF4
+      - 🇺🇸 美国_CF5
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
+      - 🇺🇸 美国_GC4
+      - 🇺🇸 美国_GC5
       - 🇯🇵 日本
-      - 🇯🇵 日本_GC
-      - 🇯🇵 日本_GC 2
-      - 🇯🇵 日本_GC 3
-      - 🇯🇵 日本_GC 4
-      - 🇯🇵 日本_GC 5
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本_GC4
+      - 🇯🇵 日本_GC5
+      - RAK
+      - 4837
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -68,21 +85,28 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - ⚖️ 负载均衡日本
+      - ⚖️ 负载均衡美国
       - 🎯 全球直连
       - 🇺🇸 美国_CF@
-      - 🇺🇸 美国_GC
-      - 🇺🇸 美国_ntCF
-      - 🇺🇸 美国_ntCF 2
-      - 🇺🇸 美国_ntCF 3
-      - 🇺🇸 美国_ntCF@
-      - 🇺🇸 美国4837
-      - RAK
+      - 🇺🇸 美国_CF1
+      - 🇺🇸 美国_CF2
+      - 🇺🇸 美国_CF3
+      - 🇺🇸 美国_CF4
+      - 🇺🇸 美国_CF5
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
+      - 🇺🇸 美国_GC4
+      - 🇺🇸 美国_GC5
       - 🇯🇵 日本
-      - 🇯🇵 日本_GC
-      - 🇯🇵 日本_GC 2
-      - 🇯🇵 日本_GC 3
-      - 🇯🇵 日本_GC 4
-      - 🇯🇵 日本_GC 5
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本_GC4
+      - 🇯🇵 日本_GC5
+      - RAK
+      - 4837
   - name: ❤️ Emby公益服
     type: select
     proxies:
@@ -90,6 +114,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - ⚖️ 负载均衡日本
+      - ⚖️ 负载均衡美国
       - 🎯 全球直连
   - name: 📲 电报信息
     type: select
@@ -97,57 +123,72 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸 美国_CF@
-      - 🇺🇸 美国_GC
-      - 🇺🇸 美国_ntCF
-      - 🇺🇸 美国_ntCF 2
-      - 🇺🇸 美国_ntCF 3
-      - 🇺🇸 美国_ntCF@
-      - 🇺🇸 美国4837
-      - RAK
+      - 🇺🇸 美国_CF1
+      - 🇺🇸 美国_CF2
+      - 🇺🇸 美国_CF3
+      - 🇺🇸 美国_CF4
+      - 🇺🇸 美国_CF5
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
+      - 🇺🇸 美国_GC4
+      - 🇺🇸 美国_GC5
       - 🇯🇵 日本
-      - 🇯🇵 日本_GC
-      - 🇯🇵 日本_GC 2
-      - 🇯🇵 日本_GC 3
-      - 🇯🇵 日本_GC 4
-      - 🇯🇵 日本_GC 5
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本_GC4
+      - 🇯🇵 日本_GC5
+      - RAK
+      - 4837
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇺🇸 美国_CF@
-      - 🇺🇸 美国_GC
-      - 🇺🇸 美国_ntCF
-      - 🇺🇸 美国_ntCF 2
-      - 🇺🇸 美国_ntCF 3
-      - 🇺🇸 美国_ntCF@
-      - 🇺🇸 美国4837
-      - RAK
+      - 🇺🇸 美国_CF1
+      - 🇺🇸 美国_CF2
+      - 🇺🇸 美国_CF3
+      - 🇺🇸 美国_CF4
+      - 🇺🇸 美国_CF5
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
+      - 🇺🇸 美国_GC4
+      - 🇺🇸 美国_GC5
       - 🇯🇵 日本
-      - 🇯🇵 日本_GC
-      - 🇯🇵 日本_GC 2
-      - 🇯🇵 日本_GC 3
-      - 🇯🇵 日本_GC 4
-      - 🇯🇵 日本_GC 5
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本_GC4
+      - 🇯🇵 日本_GC5
+      - RAK
+      - 4837
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸 美国_CF@
-      - 🇺🇸 美国_GC
-      - 🇺🇸 美国_ntCF
-      - 🇺🇸 美国_ntCF 2
-      - 🇺🇸 美国_ntCF 3
-      - 🇺🇸 美国_ntCF@
-      - 🇺🇸 美国4837
-      - RAK
+      - 🇺🇸 美国_CF1
+      - 🇺🇸 美国_CF2
+      - 🇺🇸 美国_CF3
+      - 🇺🇸 美国_CF4
+      - 🇺🇸 美国_CF5
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
+      - 🇺🇸 美国_GC4
+      - 🇺🇸 美国_GC5
       - 🇯🇵 日本
-      - 🇯🇵 日本_GC
-      - 🇯🇵 日本_GC 2
-      - 🇯🇵 日本_GC 3
-      - 🇯🇵 日本_GC 4
-      - 🇯🇵 日本_GC 5
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本_GC4
+      - 🇯🇵 日本_GC5
+      - RAK
+      - 4837
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -155,19 +196,24 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸 美国_CF@
-      - 🇺🇸 美国_GC
-      - 🇺🇸 美国_ntCF
-      - 🇺🇸 美国_ntCF 2
-      - 🇺🇸 美国_ntCF 3
-      - 🇺🇸 美国_ntCF@
-      - 🇺🇸 美国4837
-      - RAK
+      - 🇺🇸 美国_CF1
+      - 🇺🇸 美国_CF2
+      - 🇺🇸 美国_CF3
+      - 🇺🇸 美国_CF4
+      - 🇺🇸 美国_CF5
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
+      - 🇺🇸 美国_GC4
+      - 🇺🇸 美国_GC5
       - 🇯🇵 日本
-      - 🇯🇵 日本_GC
-      - 🇯🇵 日本_GC 2
-      - 🇯🇵 日本_GC 3
-      - 🇯🇵 日本_GC 4
-      - 🇯🇵 日本_GC 5
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本_GC4
+      - 🇯🇵 日本_GC5
+      - RAK
+      - 4837
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -191,19 +237,24 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸 美国_CF@
-      - 🇺🇸 美国_GC
-      - 🇺🇸 美国_ntCF
-      - 🇺🇸 美国_ntCF 2
-      - 🇺🇸 美国_ntCF 3
-      - 🇺🇸 美国_ntCF@
-      - 🇺🇸 美国4837
-      - RAK
+      - 🇺🇸 美国_CF1
+      - 🇺🇸 美国_CF2
+      - 🇺🇸 美国_CF3
+      - 🇺🇸 美国_CF4
+      - 🇺🇸 美国_CF5
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
+      - 🇺🇸 美国_GC4
+      - 🇺🇸 美国_GC5
       - 🇯🇵 日本
-      - 🇯🇵 日本_GC
-      - 🇯🇵 日本_GC 2
-      - 🇯🇵 日本_GC 3
-      - 🇯🇵 日本_GC 4
-      - 🇯🇵 日本_GC 5
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本_GC4
+      - 🇯🇵 日本_GC5
+      - RAK
+      - 4837
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -211,11 +262,11 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇯🇵 日本
-      - 🇯🇵 日本_GC
-      - 🇯🇵 日本_GC 2
-      - 🇯🇵 日本_GC 3
-      - 🇯🇵 日本_GC 4
-      - 🇯🇵 日本_GC 5
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本_GC4
+      - 🇯🇵 日本_GC5
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -223,12 +274,47 @@ proxy-groups:
     tolerance: 150
     proxies:
       - 🇺🇸 美国_CF@
-      - 🇺🇸 美国_GC
-      - 🇺🇸 美国_ntCF
-      - 🇺🇸 美国_ntCF 2
-      - 🇺🇸 美国_ntCF 3
-      - 🇺🇸 美国_ntCF@
-      - 🇺🇸 美国4837
+      - 🇺🇸 美国_CF1
+      - 🇺🇸 美国_CF2
+      - 🇺🇸 美国_CF3
+      - 🇺🇸 美国_CF4
+      - 🇺🇸 美国_CF5
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
+      - 🇺🇸 美国_GC4
+      - 🇺🇸 美国_GC5
+  - name: ⚖️ 负载均衡日本
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇯🇵 日本
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本_GC4
+      - 🇯🇵 日本_GC5
+  - name: ⚖️ 负载均衡美国
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 100
+    proxies:
+      - 🇺🇸 美国_CF@
+      - 🇺🇸 美国_CF1
+      - 🇺🇸 美国_CF2
+      - 🇺🇸 美国_CF3
+      - 🇺🇸 美国_CF4
+      - 🇺🇸 美国_CF5
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
+      - 🇺🇸 美国_GC4
+      - 🇺🇸 美国_GC5
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
