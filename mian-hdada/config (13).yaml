@@ -304,39 +304,18 @@ proxy-groups:
       - 美国_GC3
       - 美国_GC4
       - 美国_GC5
-      - 日本
-      - 日本_GC1
-      - 日本_GC2
-      - 日本_GC3
-      - 日本_GC4
-      - 日本_GC5
-      - RAK
-      - '4837'
   - name: ⚖️ 负载均衡-轮询（日本）
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 300
     strategy: round-robin
     proxies:
-      - 美国_CF@
-      - 美国_CF1
-      - 美国_CF2
-      - 美国_CF3
-      - 美国_CF4
-      - 美国_CF5
-      - 美国_GC1
-      - 美国_GC2
-      - 美国_GC3
-      - 美国_GC4
-      - 美国_GC5
       - 日本
       - 日本_GC1
       - 日本_GC2
       - 日本_GC3
       - 日本_GC4
       - 日本_GC5
-      - RAK
-      - '4837'
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
