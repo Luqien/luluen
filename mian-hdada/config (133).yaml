@@ -9,11 +9,6 @@ proxies:
   - {"type":"vmess","name":"日本notls3","ws-opts":{"path":"/cfcdn2","headers":{"host":"gccf.hdada.ml"}},"server":"green3.hdada.top","port":"443","uuid":"96e83b95-e630-4c63-de90-bed6c763ce3f","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"日本notls2","ws-opts":{"path":"/cfcdn2","headers":{"host":"gccf.hdada.ml"}},"server":"green2.hdada.top","port":"443","uuid":"96e83b95-e630-4c63-de90-bed6c763ce3f","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"日本notls1","ws-opts":{"path":"/cfcdn2","headers":{"host":"gccf.hdada.ml"}},"server":"green1.hdada.top","port":"443","uuid":"96e83b95-e630-4c63-de90-bed6c763ce3f","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"日本_GC9","ws-opts":{"path":"/gccdn","headers":{"host":"gc.hdada.top"}},"server":"green9.hdada.top","port":"443","uuid":"d209cdb3-9529-4b09-fc7c-fbeb537c0fbc","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"日本_GC8","ws-opts":{"path":"/gccdn","headers":{"host":"gc.hdada.top"}},"server":"green8.hdada.top","port":"443","uuid":"d209cdb3-9529-4b09-fc7c-fbeb537c0fbc","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"日本_GC7","ws-opts":{"path":"/gccdn","headers":{"host":"gc.hdada.top"}},"server":"green7.hdada.top","port":"443","uuid":"d209cdb3-9529-4b09-fc7c-fbeb537c0fbc","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"日本_GC6","ws-opts":{"path":"/gccdn","headers":{"host":"gc.hdada.top"}},"server":"green6.hdada.top","port":"443","uuid":"d209cdb3-9529-4b09-fc7c-fbeb537c0fbc","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"日本_GC10","ws-opts":{"path":"/gccdn","headers":{"host":"gc.hdada.top"}},"server":"green10.hdada.top","port":"443","uuid":"d209cdb3-9529-4b09-fc7c-fbeb537c0fbc","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"日本","ws-opts":{"path":"/zhilian"},"server":"zhilian.hdada.top","port":"36969","uuid":"f208139a-32c1-47fc-81dd-0742069b01f0","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"美国notls5","ws-opts":{"path":"/cfcdn2","headers":{"host":"rncf.hdada.ml"}},"server":"blue5.hdada.top","port":"443","uuid":"d1695d21-eef5-41a1-972e-ba086c66d476","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"美国notls4","ws-opts":{"path":"/cfcdn2","headers":{"host":"rncf.hdada.ml"}},"server":"blue4.hdada.top","port":"443","uuid":"d1695d21-eef5-41a1-972e-ba086c66d476","alterId":"0","cipher":"auto","network":"ws","tls":true}
@@ -21,11 +16,6 @@ proxies:
   - {"type":"vmess","name":"美国notls2","ws-opts":{"path":"/cfcdn2","headers":{"host":"rncf.hdada.ml"}},"server":"blue2.hdada.top","port":"443","uuid":"d1695d21-eef5-41a1-972e-ba086c66d476","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"美国notls1","ws-opts":{"path":"/cfcdn2","headers":{"host":"rncf.hdada.ml"}},"server":"blue1.hdada.top","port":"443","uuid":"d1695d21-eef5-41a1-972e-ba086c66d476","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"美国notls@","ws-opts":{"path":"/cfcdn2"},"server":"rncf.hdada.ml","port":"443","uuid":"d1695d21-eef5-41a1-972e-ba086c66d476","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国_GC9","ws-opts":{"path":"/gccdn","headers":{"host":"gc.luluen.top"}},"server":"blue9.hdada.top","port":"443","uuid":"b01fbf39-a384-4dc9-b157-4eb89a5387f0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国_GC8","ws-opts":{"path":"/gccdn","headers":{"host":"gc.luluen.top"}},"server":"blue8.hdada.top","port":"443","uuid":"b01fbf39-a384-4dc9-b157-4eb89a5387f0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国_GC7","ws-opts":{"path":"/gccdn","headers":{"host":"gc.luluen.top"}},"server":"blue7.hdada.top","port":"443","uuid":"b01fbf39-a384-4dc9-b157-4eb89a5387f0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国_GC6","ws-opts":{"path":"/gccdn","headers":{"host":"gc.luluen.top"}},"server":"blue6.hdada.top","port":"443","uuid":"b01fbf39-a384-4dc9-b157-4eb89a5387f0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"美国_GC10","ws-opts":{"path":"/gccdn","headers":{"host":"gc.luluen.top"}},"server":"blue10.hdada.top","port":"443","uuid":"b01fbf39-a384-4dc9-b157-4eb89a5387f0","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"RAK","ws-opts":{"path":"/zhilian3.luluen.top"},"server":"zhilian3.luluen.top","port":"36969","uuid":"21f92f0b-6ba6-4e3c-bb34-17ee8372a8eb","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"4837","ws-opts":{"path":"/zhilian2.luluen.top"},"server":"zhilian2.luluen.top","port":"36969","uuid":"b3974d86-1a38-4073-f77e-8a6aae23fc4f","alterId":"0","cipher":"auto","network":"ws","tls":true}
 proxy-groups:
@@ -43,11 +33,6 @@ proxy-groups:
       - 日本notls3
       - 日本notls2
       - 日本notls1
-      - 日本_GC9
-      - 日本_GC8
-      - 日本_GC7
-      - 日本_GC6
-      - 日本_GC10
       - 日本
       - 美国notls5
       - 美国notls4
@@ -55,11 +40,6 @@ proxy-groups:
       - 美国notls2
       - 美国notls1
       - 美国notls@
-      - 美国_GC9
-      - 美国_GC8
-      - 美国_GC7
-      - 美国_GC6
-      - 美国_GC10
       - RAK
       - '4837'
   - name: ♻️ 自动选择
@@ -73,11 +53,6 @@ proxy-groups:
       - 日本notls3
       - 日本notls2
       - 日本notls1
-      - 日本_GC9
-      - 日本_GC8
-      - 日本_GC7
-      - 日本_GC6
-      - 日本_GC10
       - 日本
       - 美国notls5
       - 美国notls4
@@ -85,11 +60,6 @@ proxy-groups:
       - 美国notls2
       - 美国notls1
       - 美国notls@
-      - 美国_GC9
-      - 美国_GC8
-      - 美国_GC7
-      - 美国_GC6
-      - 美国_GC10
       - RAK
       - '4837'
   - name: 🌍 国外媒体
@@ -107,11 +77,6 @@ proxy-groups:
       - 日本notls3
       - 日本notls2
       - 日本notls1
-      - 日本_GC9
-      - 日本_GC8
-      - 日本_GC7
-      - 日本_GC6
-      - 日本_GC10
       - 日本
       - 美国notls5
       - 美国notls4
@@ -119,11 +84,6 @@ proxy-groups:
       - 美国notls2
       - 美国notls1
       - 美国notls@
-      - 美国_GC9
-      - 美国_GC8
-      - 美国_GC7
-      - 美国_GC6
-      - 美国_GC10
       - RAK
       - '4837'
   - name: ❤️ Emby公益服
@@ -145,11 +105,6 @@ proxy-groups:
       - 日本notls3
       - 日本notls2
       - 日本notls1
-      - 日本_GC9
-      - 日本_GC8
-      - 日本_GC7
-      - 日本_GC6
-      - 日本_GC10
       - 日本
       - 美国notls5
       - 美国notls4
@@ -157,11 +112,6 @@ proxy-groups:
       - 美国notls2
       - 美国notls1
       - 美国notls@
-      - 美国_GC9
-      - 美国_GC8
-      - 美国_GC7
-      - 美国_GC6
-      - 美国_GC10
       - RAK
       - '4837'
   - name: Ⓜ️ 微软服务
@@ -174,11 +124,6 @@ proxy-groups:
       - 日本notls3
       - 日本notls2
       - 日本notls1
-      - 日本_GC9
-      - 日本_GC8
-      - 日本_GC7
-      - 日本_GC6
-      - 日本_GC10
       - 日本
       - 美国notls5
       - 美国notls4
@@ -186,11 +131,6 @@ proxy-groups:
       - 美国notls2
       - 美国notls1
       - 美国notls@
-      - 美国_GC9
-      - 美国_GC8
-      - 美国_GC7
-      - 美国_GC6
-      - 美国_GC10
       - RAK
       - '4837'
   - name: 🍎 苹果服务
@@ -203,11 +143,6 @@ proxy-groups:
       - 日本notls3
       - 日本notls2
       - 日本notls1
-      - 日本_GC9
-      - 日本_GC8
-      - 日本_GC7
-      - 日本_GC6
-      - 日本_GC10
       - 日本
       - 美国notls5
       - 美国notls4
@@ -215,11 +150,6 @@ proxy-groups:
       - 美国notls2
       - 美国notls1
       - 美国notls@
-      - 美国_GC9
-      - 美国_GC8
-      - 美国_GC7
-      - 美国_GC6
-      - 美国_GC10
       - RAK
       - '4837'
   - name: 📢 谷歌FCM
@@ -233,11 +163,6 @@ proxy-groups:
       - 日本notls3
       - 日本notls2
       - 日本notls1
-      - 日本_GC9
-      - 日本_GC8
-      - 日本_GC7
-      - 日本_GC6
-      - 日本_GC10
       - 日本
       - 美国notls5
       - 美国notls4
@@ -245,11 +170,6 @@ proxy-groups:
       - 美国notls2
       - 美国notls1
       - 美国notls@
-      - 美国_GC9
-      - 美国_GC8
-      - 美国_GC7
-      - 美国_GC6
-      - 美国_GC10
       - RAK
       - '4837'
   - name: ❤️ EmbyVip
@@ -284,11 +204,6 @@ proxy-groups:
       - 日本notls3
       - 日本notls2
       - 日本notls1
-      - 日本_GC9
-      - 日本_GC8
-      - 日本_GC7
-      - 日本_GC6
-      - 日本_GC10
       - 日本
       - 美国notls5
       - 美国notls4
@@ -296,11 +211,6 @@ proxy-groups:
       - 美国notls2
       - 美国notls1
       - 美国notls@
-      - 美国_GC9
-      - 美国_GC8
-      - 美国_GC7
-      - 美国_GC6
-      - 美国_GC10
       - RAK
       - '4837'
   - name: 🇯🇵 日本节点
@@ -314,11 +224,6 @@ proxy-groups:
       - 日本notls3
       - 日本notls2
       - 日本notls1
-      - 日本_GC9
-      - 日本_GC8
-      - 日本_GC7
-      - 日本_GC6
-      - 日本_GC10
       - 日本
   - name: 🇺🇲 美国节点
     type: url-test
@@ -332,11 +237,6 @@ proxy-groups:
       - 美国notls2
       - 美国notls1
       - 美国notls@
-      - 美国_GC9
-      - 美国_GC8
-      - 美国_GC7
-      - 美国_GC6
-      - 美国_GC10
   - name: ⚖️ 负载均衡-轮询（美国）
     type: load-balance
     url: http://www.google.com/generate_204
@@ -349,11 +249,6 @@ proxy-groups:
       - 美国notls2
       - 美国notls1
       - 美国notls@
-      - 美国_GC9
-      - 美国_GC8
-      - 美国_GC7
-      - 美国_GC6
-      - 美国_GC10
   - name: ⚖️ 负载均衡-轮询（日本）
     type: load-balance
     url: http://www.google.com/generate_204
@@ -365,12 +260,6 @@ proxy-groups:
       - 日本notls3
       - 日本notls2
       - 日本notls1
-      - 日本_GC9
-      - 日本_GC8
-      - 日本_GC7
-      - 日本_GC6
-      - 日本_GC10
-      - 日本
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
