@@ -5,79 +5,83 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国notls@, server: 45.64.22.55, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
-  - {name: 🇺🇸 美国notls@ 2, server: 47.242.51.205, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
-  - {name: 🇺🇸 美国notls@ 3, server: 47.251.1.61, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
-  - {name: 🇺🇸 美国notls@ 4, server: 8.219.217.149, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
-  - {name: 🇺🇸 美国notls@ 5, server: 8.219.155.255, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
-  - {name: 🇺🇸 美国notls@ 6, server: 8.219.195.151, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
-  - {name: 🇺🇸 美国notls@ 7, server: 8.219.171.114, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
-  - {name: 🇺🇸 美国notls@ 8, server: 8.219.152.124, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
-  - {name: 🇺🇸 美国notls@ 9, server: 8.219.198.139, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
-  - {name: 🇺🇸 美国notls@ 10, server: 8.219.172.204, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
-  - {name: 🇺🇸 美国notls@ 11, server: 8.219.156.173, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
-  - {name: 🇺🇸 美国notls@ 12, server: 8.219.205.122, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
-  - {name: 🇺🇸 美国notls@ 13, server: 8.219.105.248, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
-  - {name: 🇺🇸 美国notls@ 14, server: 8.209.255.28, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
+  - {name: 🇺🇸 美国_GC1, server: blue1.hdada.top, port: 443, type: vmess, uuid: b01fbf39-a384-4dc9-b157-4eb89a5387f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.luluen.top}}}
+  - {name: 🇺🇸 美国_GC2, server: blue2.hdada.top, port: 443, type: vmess, uuid: b01fbf39-a384-4dc9-b157-4eb89a5387f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.luluen.top}}}
+  - {name: 🇺🇸 美国_GC3, server: blue3.hdada.top, port: 443, type: vmess, uuid: b01fbf39-a384-4dc9-b157-4eb89a5387f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.luluen.top}}}
+  - {name: 🇺🇸 美国notls@, server: rncf.hdada.ml, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
+  - {name: 🇺🇸 美国notls1, server: blue1.hdada.top, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
+  - {name: 🇺🇸 美国notls2, server: blue2.hdada.top, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
+  - {name: 🇺🇸 美国notls3, server: blue3.hdada.top, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
+  - {name: 🇯🇵 日本, server: zhilian.hdada.top, port: 36969, type: vmess, uuid: f208139a-32c1-47fc-81dd-0742069b01f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zhilian, headers: {Host: zhilian.hdada.top}}}
+  - {name: 🇯🇵 日本_GC1, server: green1.hdada.top, port: 443, type: vmess, uuid: d209cdb3-9529-4b09-fc7c-fbeb537c0fbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.hdada.top}}}
+  - {name: 🇯🇵 日本_GC2, server: green2.hdada.top, port: 443, type: vmess, uuid: d209cdb3-9529-4b09-fc7c-fbeb537c0fbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.hdada.top}}}
+  - {name: 🇯🇵 日本_GC3, server: green3.hdada.top, port: 443, type: vmess, uuid: d209cdb3-9529-4b09-fc7c-fbeb537c0fbc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.hdada.top}}}
+  - {name: 🇯🇵 日本notls1, server: green1.hdada.top, port: 443, type: vmess, uuid: 96e83b95-e630-4c63-de90-bed6c763ce3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gccf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: gccf.hdada.ml}}}
+  - {name: 🇯🇵 日本notls2, server: green2.hdada.top, port: 443, type: vmess, uuid: 96e83b95-e630-4c63-de90-bed6c763ce3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gccf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: gccf.hdada.ml}}}
+  - {name: 🇯🇵 日本notls3, server: green3.hdada.top, port: 443, type: vmess, uuid: 96e83b95-e630-4c63-de90-bed6c763ce3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: gccf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: gccf.hdada.ml}}}
+  - {name: RAK, server: zhilian3.luluen.top, port: 36969, type: vmess, uuid: 21f92f0b-6ba6-4e3c-bb34-17ee8372a8eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /zhilian3.luluen.top, headers: {Host: zhilian3.luluen.top}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
       - 🇺🇸 美国notls@
-      - 🇺🇸 美国notls@ 2
-      - 🇺🇸 美国notls@ 3
-      - 🇺🇸 美国notls@ 4
-      - 🇺🇸 美国notls@ 5
-      - 🇺🇸 美国notls@ 6
-      - 🇺🇸 美国notls@ 7
-      - 🇺🇸 美国notls@ 8
-      - 🇺🇸 美国notls@ 9
-      - 🇺🇸 美国notls@ 10
-      - 🇺🇸 美国notls@ 11
-      - 🇺🇸 美国notls@ 12
-      - 🇺🇸 美国notls@ 13
-      - 🇺🇸 美国notls@ 14
+      - 🇺🇸 美国notls1
+      - 🇺🇸 美国notls2
+      - 🇺🇸 美国notls3
+      - 🇯🇵 日本
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本notls1
+      - 🇯🇵 日本notls2
+      - 🇯🇵 日本notls3
+      - RAK
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
       - 🇺🇸 美国notls@
-      - 🇺🇸 美国notls@ 2
-      - 🇺🇸 美国notls@ 3
-      - 🇺🇸 美国notls@ 4
-      - 🇺🇸 美国notls@ 5
-      - 🇺🇸 美国notls@ 6
-      - 🇺🇸 美国notls@ 7
-      - 🇺🇸 美国notls@ 8
-      - 🇺🇸 美国notls@ 9
-      - 🇺🇸 美国notls@ 10
-      - 🇺🇸 美国notls@ 11
-      - 🇺🇸 美国notls@ 12
-      - 🇺🇸 美国notls@ 13
-      - 🇺🇸 美国notls@ 14
+      - 🇺🇸 美国notls1
+      - 🇺🇸 美国notls2
+      - 🇺🇸 美国notls3
+      - 🇯🇵 日本
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本notls1
+      - 🇯🇵 日本notls2
+      - 🇯🇵 日本notls3
+      - RAK
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
       - 🇺🇸 美国notls@
-      - 🇺🇸 美国notls@ 2
-      - 🇺🇸 美国notls@ 3
-      - 🇺🇸 美国notls@ 4
-      - 🇺🇸 美国notls@ 5
-      - 🇺🇸 美国notls@ 6
-      - 🇺🇸 美国notls@ 7
-      - 🇺🇸 美国notls@ 8
-      - 🇺🇸 美国notls@ 9
-      - 🇺🇸 美国notls@ 10
-      - 🇺🇸 美国notls@ 11
-      - 🇺🇸 美国notls@ 12
-      - 🇺🇸 美国notls@ 13
-      - 🇺🇸 美国notls@ 14
+      - 🇺🇸 美国notls1
+      - 🇺🇸 美国notls2
+      - 🇺🇸 美国notls3
+      - 🇯🇵 日本
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本notls1
+      - 🇯🇵 日本notls2
+      - 🇯🇵 日本notls3
+      - RAK
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -96,20 +100,21 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
       - 🇺🇸 美国notls@
-      - 🇺🇸 美国notls@ 2
-      - 🇺🇸 美国notls@ 3
-      - 🇺🇸 美国notls@ 4
-      - 🇺🇸 美国notls@ 5
-      - 🇺🇸 美国notls@ 6
-      - 🇺🇸 美国notls@ 7
-      - 🇺🇸 美国notls@ 8
-      - 🇺🇸 美国notls@ 9
-      - 🇺🇸 美国notls@ 10
-      - 🇺🇸 美国notls@ 11
-      - 🇺🇸 美国notls@ 12
-      - 🇺🇸 美国notls@ 13
-      - 🇺🇸 美国notls@ 14
+      - 🇺🇸 美国notls1
+      - 🇺🇸 美国notls2
+      - 🇺🇸 美国notls3
+      - 🇯🇵 日本
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本notls1
+      - 🇯🇵 日本notls2
+      - 🇯🇵 日本notls3
+      - RAK
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -120,59 +125,62 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
       - 🇺🇸 美国notls@
-      - 🇺🇸 美国notls@ 2
-      - 🇺🇸 美国notls@ 3
-      - 🇺🇸 美国notls@ 4
-      - 🇺🇸 美国notls@ 5
-      - 🇺🇸 美国notls@ 6
-      - 🇺🇸 美国notls@ 7
-      - 🇺🇸 美国notls@ 8
-      - 🇺🇸 美国notls@ 9
-      - 🇺🇸 美国notls@ 10
-      - 🇺🇸 美国notls@ 11
-      - 🇺🇸 美国notls@ 12
-      - 🇺🇸 美国notls@ 13
-      - 🇺🇸 美国notls@ 14
+      - 🇺🇸 美国notls1
+      - 🇺🇸 美国notls2
+      - 🇺🇸 美国notls3
+      - 🇯🇵 日本
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本notls1
+      - 🇯🇵 日本notls2
+      - 🇯🇵 日本notls3
+      - RAK
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
       - 🇺🇸 美国notls@
-      - 🇺🇸 美国notls@ 2
-      - 🇺🇸 美国notls@ 3
-      - 🇺🇸 美国notls@ 4
-      - 🇺🇸 美国notls@ 5
-      - 🇺🇸 美国notls@ 6
-      - 🇺🇸 美国notls@ 7
-      - 🇺🇸 美国notls@ 8
-      - 🇺🇸 美国notls@ 9
-      - 🇺🇸 美国notls@ 10
-      - 🇺🇸 美国notls@ 11
-      - 🇺🇸 美国notls@ 12
-      - 🇺🇸 美国notls@ 13
-      - 🇺🇸 美国notls@ 14
+      - 🇺🇸 美国notls1
+      - 🇺🇸 美国notls2
+      - 🇺🇸 美国notls3
+      - 🇯🇵 日本
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本notls1
+      - 🇯🇵 日本notls2
+      - 🇯🇵 日本notls3
+      - RAK
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
       - 🇺🇸 美国notls@
-      - 🇺🇸 美国notls@ 2
-      - 🇺🇸 美国notls@ 3
-      - 🇺🇸 美国notls@ 4
-      - 🇺🇸 美国notls@ 5
-      - 🇺🇸 美国notls@ 6
-      - 🇺🇸 美国notls@ 7
-      - 🇺🇸 美国notls@ 8
-      - 🇺🇸 美国notls@ 9
-      - 🇺🇸 美国notls@ 10
-      - 🇺🇸 美国notls@ 11
-      - 🇺🇸 美国notls@ 12
-      - 🇺🇸 美国notls@ 13
-      - 🇺🇸 美国notls@ 14
+      - 🇺🇸 美国notls1
+      - 🇺🇸 美国notls2
+      - 🇺🇸 美国notls3
+      - 🇯🇵 日本
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本notls1
+      - 🇯🇵 日本notls2
+      - 🇯🇵 日本notls3
+      - RAK
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -188,20 +196,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇺🇸 美国_GC1
+      - 🇺🇸 美国_GC2
+      - 🇺🇸 美国_GC3
       - 🇺🇸 美国notls@
-      - 🇺🇸 美国notls@ 2
-      - 🇺🇸 美国notls@ 3
-      - 🇺🇸 美国notls@ 4
-      - 🇺🇸 美国notls@ 5
-      - 🇺🇸 美国notls@ 6
-      - 🇺🇸 美国notls@ 7
-      - 🇺🇸 美国notls@ 8
-      - 🇺🇸 美国notls@ 9
-      - 🇺🇸 美国notls@ 10
-      - 🇺🇸 美国notls@ 11
-      - 🇺🇸 美国notls@ 12
-      - 🇺🇸 美国notls@ 13
-      - 🇺🇸 美国notls@ 14
+      - 🇺🇸 美国notls1
+      - 🇺🇸 美国notls2
+      - 🇺🇸 美国notls3
+      - 🇯🇵 日本
+      - 🇯🇵 日本_GC1
+      - 🇯🇵 日本_GC2
+      - 🇯🇵 日本_GC3
+      - 🇯🇵 日本notls1
+      - 🇯🇵 日本notls2
+      - 🇯🇵 日本notls3
+      - RAK
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
