@@ -8,6 +8,9 @@ proxies:
   - {name: 🇺🇸 美国_GC1, server: blue1.hdada.top, port: 443, type: vmess, uuid: b01fbf39-a384-4dc9-b157-4eb89a5387f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.luluen.top}}}
   - {name: 🇺🇸 美国_GC2, server: blue2.hdada.top, port: 443, type: vmess, uuid: b01fbf39-a384-4dc9-b157-4eb89a5387f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.luluen.top}}}
   - {name: 🇺🇸 美国_GC3, server: blue3.hdada.top, port: 443, type: vmess, uuid: b01fbf39-a384-4dc9-b157-4eb89a5387f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /gccdn, headers: {Host: gc.luluen.top}}}
+  - {name: 🇺🇸 美国cft1, server: red1.hdada.top, port: 443, type: vmess, uuid: 57d07f3f-638b-4e07-e8dc-04a4f851ddc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cftcdn, headers: {Host: d1epyy0nuiv73u.cloudfront.net}}}
+  - {name: 🇺🇸 美国cft2, server: red2.hdada.top, port: 443, type: vmess, uuid: 57d07f3f-638b-4e07-e8dc-04a4f851ddc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cftcdn, headers: {Host: d1epyy0nuiv73u.cloudfront.net}}}
+  - {name: 🇺🇸 美国cft3, server: red3.hdada.top, port: 443, type: vmess, uuid: 57d07f3f-638b-4e07-e8dc-04a4f851ddc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /cftcdn, headers: {Host: d1epyy0nuiv73u.cloudfront.net}}}
   - {name: 🇺🇸 美国notls@, server: rncf.hdada.ml, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
   - {name: 🇺🇸 美国notls1, server: blue1.hdada.top, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
   - {name: 🇺🇸 美国notls2, server: blue2.hdada.top, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: rncf.hdada.ml, network: ws, ws-opts: {path: /cfcdn2, headers: {Host: rncf.hdada.ml}}}
@@ -31,6 +34,9 @@ proxy-groups:
       - 🇺🇸 美国_GC1
       - 🇺🇸 美国_GC2
       - 🇺🇸 美国_GC3
+      - 🇺🇸 美国cft1
+      - 🇺🇸 美国cft2
+      - 🇺🇸 美国cft3
       - 🇺🇸 美国notls@
       - 🇺🇸 美国notls1
       - 🇺🇸 美国notls2
@@ -52,6 +58,9 @@ proxy-groups:
       - 🇺🇸 美国_GC1
       - 🇺🇸 美国_GC2
       - 🇺🇸 美国_GC3
+      - 🇺🇸 美国cft1
+      - 🇺🇸 美国cft2
+      - 🇺🇸 美国cft3
       - 🇺🇸 美国notls@
       - 🇺🇸 美国notls1
       - 🇺🇸 美国notls2
@@ -74,6 +83,9 @@ proxy-groups:
       - 🇺🇸 美国_GC1
       - 🇺🇸 美国_GC2
       - 🇺🇸 美国_GC3
+      - 🇺🇸 美国cft1
+      - 🇺🇸 美国cft2
+      - 🇺🇸 美国cft3
       - 🇺🇸 美国notls@
       - 🇺🇸 美国notls1
       - 🇺🇸 美国notls2
@@ -102,6 +114,9 @@ proxy-groups:
       - 🇺🇸 美国_GC1
       - 🇺🇸 美国_GC2
       - 🇺🇸 美国_GC3
+      - 🇺🇸 美国cft1
+      - 🇺🇸 美国cft2
+      - 🇺🇸 美国cft3
       - 🇺🇸 美国notls@
       - 🇺🇸 美国notls1
       - 🇺🇸 美国notls2
@@ -122,6 +137,9 @@ proxy-groups:
       - 🇺🇸 美国_GC1
       - 🇺🇸 美国_GC2
       - 🇺🇸 美国_GC3
+      - 🇺🇸 美国cft1
+      - 🇺🇸 美国cft2
+      - 🇺🇸 美国cft3
       - 🇺🇸 美国notls@
       - 🇺🇸 美国notls1
       - 🇺🇸 美国notls2
@@ -142,6 +160,9 @@ proxy-groups:
       - 🇺🇸 美国_GC1
       - 🇺🇸 美国_GC2
       - 🇺🇸 美国_GC3
+      - 🇺🇸 美国cft1
+      - 🇺🇸 美国cft2
+      - 🇺🇸 美国cft3
       - 🇺🇸 美国notls@
       - 🇺🇸 美国notls1
       - 🇺🇸 美国notls2
@@ -163,6 +184,9 @@ proxy-groups:
       - 🇺🇸 美国_GC1
       - 🇺🇸 美国_GC2
       - 🇺🇸 美国_GC3
+      - 🇺🇸 美国cft1
+      - 🇺🇸 美国cft2
+      - 🇺🇸 美国cft3
       - 🇺🇸 美国notls@
       - 🇺🇸 美国notls1
       - 🇺🇸 美国notls2
@@ -200,6 +224,9 @@ proxy-groups:
       - 🇺🇸 美国_GC1
       - 🇺🇸 美国_GC2
       - 🇺🇸 美国_GC3
+      - 🇺🇸 美国cft1
+      - 🇺🇸 美国cft2
+      - 🇺🇸 美国cft3
       - 🇺🇸 美国notls@
       - 🇺🇸 美国notls1
       - 🇺🇸 美国notls2
@@ -234,6 +261,9 @@ proxy-groups:
       - 🇺🇸 美国_GC1
       - 🇺🇸 美国_GC2
       - 🇺🇸 美国_GC3
+      - 🇺🇸 美国cft1
+      - 🇺🇸 美国cft2
+      - 🇺🇸 美国cft3
       - 🇺🇸 美国notls@
       - 🇺🇸 美国notls1
       - 🇺🇸 美国notls2
