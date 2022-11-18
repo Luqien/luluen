@@ -82,7 +82,6 @@ proxy-groups:
       - 🇯🇵 日本节点
       - 🇸🇬 新加坡节点
       - 🇺🇲 美国节点
-      - 链式(us-sg)
       - 🇺🇲 美国_GC1
       - 🇺🇲 美国_GC2
       - 🇺🇲 美国_GC3
@@ -110,11 +109,6 @@ proxy-groups:
       - 🇸🇬 新加坡节点
       - 🇺🇲 美国节点
       - 🎯 全球直连
-  - name: 链式(us-sg)
-    type: relay
-    proxies:
-      - 🇺🇲 美国节点
-      - 🇸🇬 新加坡节点
   - name: 📲 电报信息
     type: select
     proxies:
