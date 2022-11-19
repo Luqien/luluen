@@ -5,22 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇲 美国notls@, server: rncf.hdada.ml, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cfcdn2, ws-headers: {Host: rncf.hdada.ml}}
-  - {name: 🇺🇲 美国notls1, server: green1.hdada.top, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cfcdn2, ws-headers: {Host: rncf.hdada.ml}}
-  - {name: 🇺🇲 美国notls2, server: green2.hdada.top, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cfcdn2, ws-headers: {Host: rncf.hdada.ml}}
-  - {name: 🇺🇲 美国notls3, server: green3.hdada.top, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cfcdn2, ws-headers: {Host: rncf.hdada.ml}}
-  - {name: 🇺🇲 美国notls4, server: green4.hdada.top, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cfcdn2, ws-headers: {Host: rncf.hdada.ml}}
-  - {name: 🇺🇲 美国notls5, server: green5.hdada.top, port: 443, type: vmess, uuid: d1695d21-eef5-41a1-972e-ba086c66d476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cfcdn2, ws-headers: {Host: rncf.hdada.ml}}
-  - {name: 🇯🇵 日本notls1, server: green1.hdada.top, port: 443, type: vmess, uuid: 96e83b95-e630-4c63-de90-bed6c763ce3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cfcdn2, ws-headers: {Host: gccf.hdada.ml}}
-  - {name: 🇯🇵 日本notls2, server: green2.hdada.top, port: 443, type: vmess, uuid: 96e83b95-e630-4c63-de90-bed6c763ce3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cfcdn2, ws-headers: {Host: gccf.hdada.ml}}
-  - {name: 🇯🇵 日本notls3, server: green3.hdada.top, port: 443, type: vmess, uuid: 96e83b95-e630-4c63-de90-bed6c763ce3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cfcdn2, ws-headers: {Host: gccf.hdada.ml}}
-  - {name: 🇯🇵 日本notls4, server: green4.hdada.top, port: 443, type: vmess, uuid: 96e83b95-e630-4c63-de90-bed6c763ce3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cfcdn2, ws-headers: {Host: gccf.hdada.ml}}
-  - {name: 🇯🇵 日本notls5, server: green5.hdada.top, port: 443, type: vmess, uuid: 96e83b95-e630-4c63-de90-bed6c763ce3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cfcdn2, ws-headers: {Host: gccf.hdada.ml}}
-  - {name: 🇸🇬 新加坡notls1, server: green1.hdada.top, port: 443, type: vmess, uuid: 4812d59f-f7c4-4b8a-c01e-011a1f09bfc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cfcdn, ws-headers: {Host: spcf.hdada.ml}}
-  - {name: 🇸🇬 新加坡notls2, server: green2.hdada.top, port: 443, type: vmess, uuid: 4812d59f-f7c4-4b8a-c01e-011a1f09bfc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cfcdn, ws-headers: {Host: spcf.hdada.ml}}
-  - {name: 🇸🇬 新加坡notls3, server: green3.hdada.top, port: 443, type: vmess, uuid: 4812d59f-f7c4-4b8a-c01e-011a1f09bfc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cfcdn, ws-headers: {Host: spcf.hdada.ml}}
-  - {name: 🇸🇬 新加坡notls4, server: green4.hdada.top, port: 443, type: vmess, uuid: 4812d59f-f7c4-4b8a-c01e-011a1f09bfc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cfcdn, ws-headers: {Host: spcf.hdada.ml}}
-  - {name: 🇸🇬 新加坡notls5, server: green5.hdada.top, port: 443, type: vmess, uuid: 4812d59f-f7c4-4b8a-c01e-011a1f09bfc6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /cfcdn, ws-headers: {Host: spcf.hdada.ml}}
+ - {name:  auto, tls: true, skip-cert-veri spcf.hdada.ml}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
